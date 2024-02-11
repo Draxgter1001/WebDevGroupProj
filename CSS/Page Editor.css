@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik Mono One', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1b1b1b;
+}
+
+/*CSS part of the Navigation Bar*/
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.homeimg{
+    display: block;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color: #000;
+    background: #fefefe;
+}
+
+.nav-bar ul li a:active{
+    color: #000;
+    background: #fefefe;
+}
+
+/*CSS part of the Page Editor*/
+#h2_box{
+    width: 80%;
+    max-width: 950px;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#text_color{
+    color: #fefefe;
+}
+
+.center{
+    text-align: center;
+}
+
+#student_box{
+    max-width: auto;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.884);
+    border-radius: 10px;
+}
+
+#box{
+    width: 80%;
+    max-width: 80%;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.text_box{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    color: #fefefec2;
+}
+
+a:hover{
+    transition: .2s;
+    color: #A020F0;
+}

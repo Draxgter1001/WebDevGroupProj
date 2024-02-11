@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik Mono One', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1b1b1b;
+}
+
+/*CSS part of the Navigation Bar*/
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.homeimg{
+    display: block;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color: #000;
+    background: #fefefe;
+}
+
+.nav-bar ul li a:active{
+    color: #000;
+    background: #fefefe;
+}
+
+/*CSS part of the Quiz*/
+#main{
+    width: 80%;
+    max-width: 950px;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#header{
+    margin-top: 0;
+    border: 2px, solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.timerContent{
+    margin-left: 300px;
+}
+
+#timer{
+    width: 250px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+h2{
+    font-size: large;
+}
+
+label{
+    display: block;
+    color: #fefefe;
+}
+    
+input{
+    width: 30px;
+    margin-left: 20px;
+}
+    
+button{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.correct{
+    background-color: #81ff81;
+}
+
+.incorrect{
+    background-color: #ff7373
+}
+
+/*CSS part of the Footer*/
+
+.center{
+    text-align: center;
+}
+
+#box{
+    width: 80%;
+    max-width: 10%;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#box:hover{
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+
+

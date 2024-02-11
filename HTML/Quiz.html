@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <div><img src="Images/home.png" alt="home" class="homeimg"></div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="https://w1881959.users.ecs.westminster.ac.uk/webDEVCW1/home2.html">HOME</a></li>
+                <li><a href="https://w1861199.users.ecs.westminster.ac.uk/webDev/Coursework/gallery.html">SHOP</a></li>
+                <li><a href="https://w1861199.users.ecs.westminster.ac.uk/webDev/Coursework/sitemap.html">SITEMAP</a></li>
+                <li><a href="https://w1887479.users.ecs.westminster.ac.uk/webDevCW/Quiz.html" >QUIZ</a></li>
+                <li><a href="https://w1887479.users.ecs.westminster.ac.uk/webDevCW/Student%20Details.html" >STUDENT DETAILS</a></li>
+                <li><a href="https://w1887479.users.ecs.westminster.ac.uk/webDevCW/Additional%20Content%20Page.html" >MORE GAMES</a></li>
+                <li><a href="https://w1881959.users.ecs.westminster.ac.uk/webDEVCW1/mobileG.html" >MOBILE GAMES</a></li>
+                <li><a href="https://w1881959.users.ecs.westminster.ac.uk/webDEVCW1/Query.html" >QUERY FORM</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    
+    <div id="main">
+        <div id="header">
+            <h1>Test your knowledge!</h1>
+            <div class="timerContent">
+                <h2 id="timer">Timer - <span id="countdown">2:00</span></h2>
+            </div>
+        </div>
+        <form id="form1">
+
+            <h2 id="question1">Which of the following games is NOT in the top 10 most played games on Steam based on peak players?</h2>
+            <label for="not_destiny"><input type="radio" name="not" value="0" id="not_destiny" />Destiny 2</label>
+            <label for="not_cyberpunk"><input type="radio" name="not" value="0" id="not_cyberpunk" />Cyberpunk 2077</label>
+            <label for="not_rainbow"><input type="radio" name="not" value="0" id="not_rainbow" />Tom Clancy's Rainbow Six Siege</label>
+            <label for="not_tf2"><input type="radio" name="not" value="0" id="not_tf2"/>Team Fortress 2</label>
+            <label for="not_rdr2"><input type="radio" name="not" value="10" id="not_rdr2"/>Red Dead Redemption 2</label><br>
+            
+            <h2 id="question2">Which game had the highest peak player count on Steam as of September 2021?</h2>
+            <label for="highest_dota"><input type="radio" name="highest" value="0" id="highest_dota"/>Dota 2</label>
+            <label for="highest_csgo"><input type="radio" name="highest" value="0" id="highest_csgo"/>Counter-Strike: Global Offensive (CS:GO)</label>
+            <label for="highest_cyberpunk"><input type="radio" name="highest" value="0" id="highest_cyberpunk" />Cyberpunk 2077</label>
+            <label for="highest_gta5"><input type="radio" name="highest" value="0" id="highest_gta5" />Grand Theft Auto V (GTA V)</label>
+            <label for="highest_pubg"><input type="radio" name="highest" value="10" id="highest_pubg" />PlayerUnknown's Battlegrounds (PUBG)</label><br>
+
+            <h2 id="question3">Which game is the most popular battle royale game on Steam based on peak players?</h2>
+            <label for="br_pubg"><input type="radio" name="br" value="0" id="br_pubg"/>PlayerUnknown's Battlegrounds (PUBG)</label>
+            <label for="br_naraka"><input type="radio" name="br" value="0" id="br_naraka"/>Naraka Blade Point</label>
+            <label for="br_apex"><input type="radio" name="br" value="10" id="br_apex" />Apex Legends</label>
+            <label for="br_hs"><input type="radio" name="br" value="0" id="br_hs" />Hunt: Showdown</label>
+            <label for="br_ring"><input type="radio" name="br" value="0" id="br_ring" />Ring of Elysium</label><br>
+            
+            <h2 id="question4">Which game is the most popular multiplayer first-person shooter on Steam based on peak players?</h2>
+            <label for="firstp_csgo"><input type="radio" name="firstp" value="10" id="firstp_csgo" />Counter-Strike: Global Offensive (CS:GO)</label>
+            <label for="firstp_tf2"><input type="radio" name="firstp" value="0" id="firstp_tf2" />Team Fortress 2</label>
+            <label for="firstp_rainbow"><input type="radio" name="firstp" value="0" id="firstp_rainbow" />Rainbow Six Siege</label>
+            <label for="firstp_ow"><input type="radio" name="firstp" value="0" id="firstp_ow" />Overwatch</label>
+            <label for="firstp_titan"><input type="radio" name="firstp" value="0" id="firstp_titan" />Titanfall 2</label><br>
+            
+            <h2 id="question5">Which game is the most popular sandbox game on Steam based on peak players?</h2>
+            <label for="sandbox_gta5"><input type="radio" name="sandbox" value="10" id="sandbox_gta5" />Grand Theft Auto V (GTA V)</label>
+            <label for="sandbox_terraria"><input type="radio" name="sandbox" value="0" id="sandbox_terraria" />Terraria</label>
+            <label for="sandbox_rust"><input type="radio" name="sandbox" value="0" id="sandbox_rust" />Rust</label>
+            <label for="sandbox_gmod"><input type="radio" name="sandbox"  value="0" id="sandbox_gmod" />Garry's Mod</label>
+            <label for="sandbox_ark"><input type="radio" name="sandbox" value="0" id="sandbox_ark" />Ark: Survival Evolved</label><br>
+
+            <h2 id="question6">Which game is the most popular sports game on Steam based on peak players?</h2>
+            <label for="sport_fifa"><input type="radio" name="sport" value="0" id="sport_fifa" />FIFA 23</label>
+            <label for="sport_nba"><input type="radio" name="sport" value="0" id="sport_nba" />NBA 2K23</label>
+            <label for="sport_ftbm"><input type="radio" name="sport" value="10" id="sport_ftbm" />Football Manager 2023</label>
+            <label for="sport_rl"><input type="radio" name="sport"  value="0" id="sport_rl" />Rocket League</label>
+            <label for="sport_nfl"><input type="radio" name="sport" value="0" id="sport_nfl" />Madden NFL 23</label><br>
+
+            <h2 id="question7">Which game is the most popular racing game on Steam based on peak players?</h2>
+            <label for="racing_fh5"><input type="radio" name="racing" value="10" id="racing_fh5" />Forza Horizon 5</label>
+            <label for="racing_nsh"><input type="radio" name="racing" value="0" id="racing_nsh" />Need for Speed: Heat</label>
+            <label for="racing_prc3"><input type="radio" name="racing" value="0" id="racing_prc3" />Project Cars 3</label>
+            <label for="racing_assetto"><input type="radio" name="racing"  value="0" id="racing_assetto" />Assetto Corsa</label>
+            <label for="racing_f1"><input type="radio" name="racing" value="0" id="racing_f1" />F1 2021</label><br>
+
+            <h2 id="question8">Which game is the most popular open-world game on Steam based on peak players?</h2>
+            <label for="openw_gta5"><input type="radio" name="open-world" value="10" id="openw_gta5" />Grand Theft Auto V (GTA V)</label>
+            <label for="openw_rdr2"><input type="radio" name="open-world" value="0" id="openw_rdr2" />Red Dead Redemption 2</label>
+            <label for="openw_assassin"><input type="radio" name="open-world" value="0" id="openw_assassin" />Assassin's Creed Valhalla</label>
+            <label for="openw_cyberpunk"><input type="radio" name="open-world"  value="0" id="openw_cyberpunk" />Cyberpunk 2077</label>
+            <label for="openw_fc5"><input type="radio" name="open-world" value="0" id="openw_fc5" />Far Cry 5</label><br>
+
+            <h2 id="question9">Which game is the most popular survival game on Steam based on peak players?</h2>
+            <label for="survival_ark"><input type="radio" name="survival" value="0" id="survival_ark" />Ark: Survival Evolved</label>
+            <label for="survival_rust"><input type="radio" name="survival" value="10" id="survival_rust" />Rust</label>
+            <label for="survival_valheim"><input type="radio" name="survival" value="0" id="survival_valheim" />Valheim</label>
+            <label for="survival_dayz"><input type="radio" name="survival"  value="0" id="survival_dayz" />DayZ</label>
+            <label for="survival_theforest"><input type="radio" name="survival" value="0" id="survival_theforest" />The Forest</label><br>
+
+            <h2 id="question10">Which game is the most popular MMORPG on Steam based on peak players?</h2>
+            <label for="mmorpg_bdo"><input type="radio" name="mmorpg" value="0" id="mmorpg_bdo" />Black Desert Online</label>
+            <label for="mmorpg_eso"><input type="radio" name="mmorpg" value="0" id="mmorpg_eso" />Elder Scrolls Online</label>
+            <label for="mmorpg_ffxiv"><input type="radio" name="mmorpg" value="0" id="mmorpg_ffxiv" />Final Fantasy XIV Online</label>
+            <label for="mmorpg_lost"><input type="radio" name="mmorpg"  value="10" id="mmorpg_lost" />Lost Ark</label>
+            <label for="mmorpg_gw2"><input type="radio" name="mmorpg" value="0" id="mmorpg_gw2" />Guild Wars 2</label><br>
+            
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" onclick="topFunction()" value="Reset">Reset</button>
+        </form><br>
+        <p>Your score is: <span id="score">_</span></p><br>
+        <p id="score2"></p>
+    </div><br><br>
+    <div class="center" id="box">
+        <footer>
+            <a href="https://w1887479.users.ecs.westminster.ac.uk/webDevCW/Page%20Editor.html" style="color:#fefefe">Page Editor</a>
+        </footer>
+    </div>
+    <script src="Quiz.js"></script>
+</body>
+</html>

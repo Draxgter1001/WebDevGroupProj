@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik Mono One', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1b1b1b;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*CSS part of the Navigation Bar*/
+
+.header-navbar{
+    width: 100%;
+    height: 80px;
+    background: #3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.homeimg{
+    display: block;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color: #000;
+    background: #fefefe;
+}
+
+.nav-bar ul li a:active{
+    color: #000;
+    background: #fefefe;
+}
+
+#textColor{
+    color: #fefefe;
+}
+
+.putCenter{
+    text-align: center;
+}
+
+/*Resize Images*/
+#img_categories{
+    max-width: 50%;
+    height: auto;
+}
+/*Put images side by side*/
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.zoom{
+    transition: .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
+
+/*Text Customisation*/
+
+a{
+    color: #fefefec2;
+}
+
+a:hover{
+    transition: .2s;
+    color: #A020F0;
+}
+
+p{
+    font-size: small;
+}
+
+/*CSS part of the Footer*/
+
+.footerContainer{
+    display: flex;
+    width: 100%;
+    padding-inline: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.center{
+    text-align: center;
+}
+
+#box{
+    width: 300px;
+
+    border: 1px gray solid;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#box:hover{
+    transition: .2s;
+    transform: scale(1.1);
+}
+
